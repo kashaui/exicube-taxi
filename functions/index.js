@@ -43,18 +43,7 @@ const languageJson = () => {
 
 const providers = [
     'paypal',
-    'braintree',
-    'stripe',
-    'paytm',
-    'payulatam',
-    'flutterwave',
-    'paystack',
-    'securepay',
-    'payfast',
-    'liqpay',
-    'culqi',
-    'mercadopago',
-    'test'
+    'payfast'
 ]
 
 exports.paypal = require('./providers/paypal');
